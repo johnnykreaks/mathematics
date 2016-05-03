@@ -1,0 +1,528 @@
+* {
+	padding:0;
+	margin:0;
+}
+html {
+	overflow-x:hidden;
+}
+body {
+	
+}
+#container {
+	width:100%;
+}
+/* NAVIGATION */
+nav {
+	font-size:60%;
+	font-family:sans-serif;
+	text-transform:uppercase;
+	background-color:black;
+	height:4.4em;
+	width:100%;
+	float:left;
+	position:fixed;
+	box-shadow:0px 5px 50px 0px black;
+}
+nav h1 {
+	margin-left:0.2em;
+	position:absolute;
+	top:0.13em;
+	font-size:3em;
+	color:white;
+	display:inline;
+}
+#home {
+	text-decoration:none;
+}
+nav ul {
+	position:absolute;
+	top:0%;
+	width:90vw;
+	display:inline-flex;
+	flex-wrap:wrap;
+	justify-content:flex-end;
+}
+nav ul li {
+	list-style-type:none;
+}
+nav ul a:nth-of-type(1):link, nav ul a:nth-of-type(1):visited {
+	border-left:1px solid white;
+}
+nav ul a:link, nav ul a:visited {
+	border-right:1px solid white;
+	padding:1.5em;
+	text-decoration:none;
+	color:white;
+}
+nav ul a:hover {
+	background-color:grey;
+}
+#logo {
+	margin-left:1em;
+	width:4em;
+}
+/* HEADER */
+header {
+	width:100vw;
+	height:100vh;
+	background:linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('../img/header.jpg') no-repeat;
+	background-size:cover;
+}
+header h2 {
+	font-family:sans-serif;
+	padding-top:2.5em;
+	font-size:6em;
+	width:60%;
+	margin:auto;
+	text-transform:uppercase;
+	text-align:center;
+}
+/* SECTION */
+section {
+	
+}
+article {
+	
+}
+/* HISTORY */
+#history {
+	padding:1em 0em 0em 0em;
+	background:url('../img/history_bg.jpg') repeat;
+}
+#history h2 , #mathematicians h2 {
+	padding:0.5em 0em;
+	font-size:6em;
+	letter-spacing:0.2em;
+	color:white;
+	text-align:center;
+	font-family:sans-serif;
+}
+#history ul {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+#history ul li {
+	font-size:70%;
+	width:100vw;
+	height:25em;
+	margin:0.3em;
+	list-style-type:none;
+	color:white;
+	font-family:sans-serif;
+}
+#history ul a:nth-of-type(1) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/prehistory.jpg') no-repeat;
+	background-size:110%;
+}
+#history ul a:nth-of-type(1):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/prehistory.jpg') no-repeat;
+	background-size:110%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(2) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/babylonian.jpg') no-repeat;
+	background-size:110%;
+}
+#history ul a:nth-of-type(2):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/babylonian.jpg') no-repeat;
+	background-size:110%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(3) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/egyptian.png') no-repeat;
+	background-size:110%;
+}
+#history ul a:nth-of-type(3):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/egyptian.png') no-repeat;
+	background-size:110%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(4) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/greek.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+#history ul a:nth-of-type(4):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/greek.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(5) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/hellenistic.png') no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+#history ul a:nth-of-type(5):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/hellenistic.png') no-repeat;
+	background-position:center;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(6) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/roman.jpg') no-repeat;
+	background-position:bottom;
+	background-size:100%;
+}
+#history ul a:nth-of-type(6):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/roman.jpg') no-repeat;
+	background-position:bottom;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(7) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/mayan.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+#history ul a:nth-of-type(7):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/mayan.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(8) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/chinese.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+#history ul a:nth-of-type(8):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/chinese.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(9) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/indian.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+#history ul a:nth-of-type(9):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/indian.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(10) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/islamic.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+#history ul a:nth-of-type(10):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/islamic.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(11) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/medieval.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+}
+#history ul a:nth-of-type(11):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/medieval.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(12) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/16thcentury.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+#history ul a:nth-of-type(12):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/16thcentury.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(13) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/17thcentury.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+}
+#history ul a:nth-of-type(13):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/17thcentury.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(14) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/18thcentury.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+#history ul a:nth-of-type(14):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/18thcentury.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(15) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/19thcentury.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+}
+#history ul a:nth-of-type(15):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/19thcentury.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+}
+#history ul a:nth-of-type(16) li {
+	background:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../img/history/20thcentury.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-top:0.3em;
+	margin-bottom:0em;
+}
+#history ul a:nth-of-type(16):hover li {
+	background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../img/history/20thcentury.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	text-shadow:1px 0px 3px black;
+	margin-top:0.3em;
+	margin-bottom:0em;
+}
+#history ul li p {
+	text-align:center;
+	margin:auto;
+	width:60%;
+	font-size:4em;
+	padding-top:2em;
+}
+#history a:link, #history a:visited {
+	text-decoration:none;
+}
+/* MATHEMATICIANS */
+#mathematicians {
+	background:url('../img/mathematicians_bg.png');
+	padding:2em 0em;
+}
+#mathematicians h2 {
+	letter-spacing:0.1em;
+	padding:0em;
+}
+#mathematicians ul {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+	flex-position:row;
+}
+#mathematicians ul a {
+	text-transform:uppercase;
+	text-decoration:none;
+	color:black;
+	width:33.33%;
+}
+#mathematicians ul li {
+	height:20em;
+	list-style-type:none;
+	background-color:green;
+}
+#mathematicians ul a:nth-of-type(1) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/archimedes.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(1):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/archimedes.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(2) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/descartes.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(2):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/descartes.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(3) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/euler.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(3):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/euler.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(4) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/fermat.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(4):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/fermat.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(5) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/fibonacci.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(5):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/fibonacci.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(6) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/galois.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(6):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/galois.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(7) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/gauss.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(7):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/gauss.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(8) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/gottfried.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(8):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/gottfried.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(9) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/hilbert.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(9):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/hilbert.jpg') no-repeat;
+	background-position:center;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(10) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/newton.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(10):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/newton.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(11) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/poincare.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(11):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/poincare.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(12) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/ramanujan.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(12):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/ramanujan.jpg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(13) li {
+	background:linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('../img/mathematicians/riemann.jpeg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	margin-bottom:0em;
+}
+#mathematicians ul a:nth-of-type(13):hover li {
+	background:linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('../img/mathematicians/riemann.jpeg') no-repeat;
+	background-position:top;
+	background-size:100%;
+	color:white;
+	text-shadow:1px 0px 3px black;
+	margin-bottom:0em;
+}
+#mathematicians ul li p {
+	text-align:center;
+	font-family:sans-serif;
+	margin:auto;
+	width:60%;
+	font-size:2em;
+	padding-top:4.5em;
+}
+/* STUDY */
+#study {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
